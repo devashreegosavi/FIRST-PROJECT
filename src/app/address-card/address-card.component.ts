@@ -15,7 +15,8 @@ export class AddressCardComponent implements OnInit {
       address: 'abc address',
       phone : [
         '123-456-789',
-        '789-456-123'
+        '789-456-123',
+        '332-442-233'
       ]
     }
   }
