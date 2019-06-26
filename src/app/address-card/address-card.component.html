@@ -1,0 +1,16 @@
+<div>
+  <h1>
+    {{ user.name }}
+  </h1>
+  <h3>
+  {{ user.title }}
+  </h3>
+  <p>
+  {{ user.address }}
+  </p>
+  <div *ngIf="user.phone.length">
+    <p>Phone :</p>
+    <p *ngFor="let item of user.phone">{{ item }}</p>
+    
+  </div>
+</div>
