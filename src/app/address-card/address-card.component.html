@@ -1,14 +1,14 @@
-<div>
-  <h1>
+<div class="address-card">
+  <h1 class="name">
     {{ user.name }}
   </h1>
-  <h3>
+  <h3 class="title">
   {{ user.title }}
   </h3>
-  <p>
+  <p class="address">
   {{ user.address }}
   </p>
-  <div *ngIf="user.phone.length">
+  <div *ngIf="user.phone.length" class="phone"> 
     <p>Phone :</p>
     <p *ngFor="let item of user.phone">{{ item }}</p>
     
